@@ -7,5 +7,5 @@
 
 
 ## sobre mim
-Estou entrando na aréa da programação, estou cursando analise e desenvolvimento de sistema, e um curso tecnico de TI,sou novo tenho muito a aprender adoro estudar e aprender, sonho em ser um programador  
+Estou entrando na aréa da programação, estou cursando analise e desenvolvimento de sistema, e um curso tecnico de TI, sou novo tenho muito a aprender adoro estudar e aprender, sonho em ser um programador  
  
