@@ -72,12 +72,89 @@ Utilizo o **Composer** para gerenciar dependências PHP em todos os meus projeto
 
 | Projeto | Descrição | Tecnologias | Diferencial |
 |---------|-----------|-------------|-------------|
-| **[PEGAJOB](https://github.com/d4c137/PegaJob)** | Marketplace de freelancers com painel duplo (cliente/freelancer), propostas, mensagens e notificações | PHP, MySQL, PWA, Bootstrap | Sistema completo de intermediação |
-| **[RP EDUCACIONAL](https://github.com/d4c137/RP_Educacional)** | Sistema de gestão escolar com controle de alunos, funcionários, repositório digital e avisos | PHP, MySQL, PWA | Gestão educacional completa |
-| **[BlackBox](https://github.com/d4c137/Black-box)** | Gerenciador de notas e eventos com autenticação biométrica (WebAuthn) e calendário integrado | PHP, WebAuthn, PWA, MySQL | Implementação de biometria |
-| **[DANTE](https://github.com/d4c137/primeiro_passo)** | Boilerplate base para projetos web com autenticação, PWA e estrutura organizada | PHP, Composer, PWA | Template profissional reutilizável |
-| **[DANTE](https://github.com/d4c137/landing-page-academia)** | Boilerplate base para projetos web com autenticação, PWA e estrutura organizada | PHP, Composer, PWA | Template profissional reutilizável |
-| **[DANTE](https://github.com/d4c137/barbearia)** | Boilerplate base para projetos web com autenticação, PWA e estrutura organizada | PHP, Composer, PWA | Template profissional reutilizável |
+| **[PEGAJOB](https://github.com/d4c137/PegaJob)** | Marketplace de freelancers com painel duplo (cliente/freelancer), propostas, mensagens e notificações | PHP, MySQL, PWA, Bootstrap | Sistema completo de intermediação de serviços |
+| **[RP EDUCACIONAL](https://github.com/d4c137/RP_Educacional)** | Sistema de gestão escolar com controle de alunos, funcionários, repositório digital e avisos | PHP, MySQL, PWA | Gestão educacional completa com PWA offline |
+| **[BlackBox](https://github.com/d4c137/Black-box)** | Gerenciador de notas e eventos com autenticação biométrica (WebAuthn) e calendário integrado | PHP, WebAuthn, PWA, MySQL | Implementação de biometria e segurança avançada |
+| **[BarberFlow](https://github.com/d4c137/barbearia)** | Sistema de agendamento profissional para barbearias com PWA e Google Login | PHP, MySQL, PWA, Bootstrap | Agendamento online com notificações |
+| **[PowerFit Academia](https://github.com/d4c137/landing-page-academia)** | Landing page moderna para academia com planos, produtos e formulário de contato | HTML, CSS, JavaScript, Bootstrap | Design responsivo e integração com PWA |
+| **[DANTE - Boilerplate](https://github.com/d4c137/primeiro_passo)** | Boilerplate base para projetos web com autenticação, PWA e estrutura organizada | PHP, Composer, PWA | Template profissional reutilizável |
+
+---
+
+### 🚀 Projetos em Detalhe
+
+#### 💼 PEGAJOB - Marketplace de Freelancers
+[🔗 Repositório](https://github.com/d4c137/PegaJob)
+
+Plataforma completa que conecta clientes e freelancers, permitindo:
+- Painéis duplos com autenticação separada para clientes e freelancers
+- Sistema de propostas, mensagens e notificações em tempo real
+- Perfis profissionais com habilidades, portfólio e currículo
+- PWA com funcionamento offline e instalação como app
+- Integração com Google Login e recuperação de senha via e-mail
+
+---
+
+#### 🏫 RP EDUCACIONAL - Sistema de Gestão Escolar
+[🔗 Repositório](https://github.com/d4c137/RP_Educacional)
+
+Sistema completo para gestão de instituições de ensino:
+- Cadastro e gerenciamento de alunos e funcionários
+- Repositório digital com upload de documentos e arquivos
+- Avisos e comunicados para a comunidade escolar
+- Geração de relatórios e impressão de documentos
+- PWA com suporte offline para acesso móvel
+
+---
+
+#### 🔒 BlackBox - Gerenciador de Notas com Biometria
+[🔗 Repositório](https://github.com/d4c137/Black-box)
+
+Aplicativo inovador de produtividade com foco em segurança:
+- Autenticação biométrica (WebAuthn) com impressão digital/reconhecimento facial
+- Calendário integrado para eventos e lembretes
+- Sistema de pastas, favoritos e pesquisa avançada
+- Personalização de tema (claro/escuro)
+- PWA completo com service workers
+
+---
+
+#### 💈 BarberFlow - Sistema de Agendamento para Barbearias
+[🔗 Repositório](https://github.com/d4c137/barbearia)
+
+Solução profissional para gestão de barbearias:
+- Agendamento online com escolha de barbeiro, serviço e horário
+- Painel administrativo para barbeiros com controle de agenda
+- Sistema de folgas e bloqueio automático de horários
+- Avaliações e histórico de atendimentos
+- PWA instalável e funcionamento offline
+
+---
+
+#### 💪 PowerFit Academia - Landing Page
+[🔗 Repositório](https://github.com/d4c137/landing-page-academia)
+
+Landing page moderna para academia:
+- Design responsivo com Bootstrap 5
+- Seção de planos com cards interativos
+- Loja de suplementos e acessórios
+- Depoimentos de clientes e formulário de contato
+- PWA configurado para instalação como app
+
+---
+
+#### 🏗️ DANTE - Boilerplate Base
+[🔗 Repositório](https://github.com/d4c137/primeiro_passo)
+
+Template base reutilizável para projetos web:
+- Estrutura organizada de pastas (conn/, includes/, login/, pwa/)
+- Autenticação completa (login, cadastro, recuperação de senha)
+- Conexão PDO segura com prepared statements
+- Configuração de ambiente com `.env`
+- PWA pré-configurado (manifest.json + service worker)
+- Integração com Composer (phpdotenv, phpmailer)
+
+---
 
 ### Como rodar qualquer um dos meus projetos:
 
@@ -88,16 +165,14 @@ git clone https://github.com/d4c137/NomeDoProjeto.git
 # Entre na pasta
 cd NomeDoProjeto
 
-# Instale as dependências
+# Instale as dependências (se houver composer.json)
 composer install
 
 # Configure o ambiente
 cp .env.example .env
 
-# Configure o banco de dados e pronto! 🚀
-```
-
----
+# Configure o banco de dados no .env e importe o SQL
+# Acesse no navegador e pronto! 🚀
 
 ## 📊 Estatísticas do GitHub
 
