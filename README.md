@@ -22,8 +22,8 @@ Estou sempre em busca de desafios para aprimorar minhas habilidades e acredito q
 
 | Curso | Instituição | Status |
 |-------|-------------|--------|
-| **Técnico em Tecnologia da Informação** | ETEC | ✅ Concluído |
-| **Análise e Desenvolvimento de Sistemas (ADS)** | FATEC / Faculdade | 🔄 Cursando |
+| **Técnico em Tecnologia da Informação** | Grau Técnico | ✅ Concluído |
+| **Análise e Desenvolvimento de Sistemas (ADS)** | UNP / Faculdade | 🔄 Cursando |
 
 ---
 
