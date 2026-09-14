@@ -57,7 +57,7 @@ Meu foco atual é consolidar habilidades **Full Stack** — combinando back-end 
 
 <div align="center">
   <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com/?user=d4c137&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="./profile/streak.svg" alt="GitHub Streak" />
   </a>
 </div>
 
