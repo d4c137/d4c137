@@ -56,7 +56,7 @@ Meu foco atual é consolidar habilidades **Full Stack** — combinando back-end 
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=d4c137&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats-eight.vercel.app/?user=d4c137&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
 
 ---
